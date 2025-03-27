@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0910.0334                               -->
+<workbook original-version='18.1' source-build='2024.2.3 (20242.24.0910.0334)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <repository-location id='2_17290590965280' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='survey of how much use SNS or Comunity site 추출' inline='true' name='federated.1insprn1j1afw814nax3v15tnkry' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='survey of how much use SNS or Comunity site' name='hyper.06ssrld14jqafd13a7pux19wtrzg'>
+            <connection authentication='auth-none' author-locale='ko_KR' class='hyper' dbname='C:/Users/User/Desktop/survey of how much use SNS or Comunity site.hyper' default-settings='yes' server='' sslmode='' username='tableau_internal_user' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='hyper.06ssrld14jqafd13a7pux19wtrzg' name='Extract' table='[Extract].[Extract]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='hyper.06ssrld14jqafd13a7pux19wtrzg' name='Extract' table='[Extract].[Extract]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>타임스탬프</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[타임스탬프]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>타임스탬프</remote-alias>
+            <ordinal>0</ordinal>
+            <family>설문지 응답 시트1</family>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <approx-count>6</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_72128C61518C44039040AAFE5C0BB384]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>1</ordinal>
+            <family>설문지 응답 시트1</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>5</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_72128C61518C44039040AAFE5C0BB384]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>2</ordinal>
+            <family>설문지 응답 시트1</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>3</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_72128C61518C44039040AAFE5C0BB384]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>what did you most of spend time at SNS or Any comunitysite?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[what did you most of spend time at SNS or Any comunitysite?]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>what did you most of spend time at SNS or Any comunitysite?</remote-alias>
+            <ordinal>3</ordinal>
+            <family>설문지 응답 시트1</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>4</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_72128C61518C44039040AAFE5C0BB384]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>what did you use of most?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[what did you use of most?]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>what did you use of most?</remote-alias>
+            <ordinal>4</ordinal>
+            <family>설문지 응답 시트1</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>5</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_72128C61518C44039040AAFE5C0BB384]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>5열</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[5열]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>5열</remote-alias>
+            <ordinal>5</ordinal>
+            <family>설문지 응답 시트1</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_72128C61518C44039040AAFE5C0BB384]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Extract' datatype='table' name='[__tableau_internal_object_id__].[Extract (Extract.Extract)_72128C61518C44039040AAFE5C0BB384]' role='measure' type='quantitative' />
+      <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='What Did You Use Of Most?' datatype='string' name='[what did you use of most?]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Extract' id='Extract (Extract.Extract)_72128C61518C44039040AAFE5C0BB384'>
+            <properties context=''>
+              <relation connection='hyper.06ssrld14jqafd13a7pux19wtrzg' name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='시트 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='survey of how much use SNS or Comunity site 추출' name='federated.1insprn1j1afw814nax3v15tnkry' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1insprn1j1afw814nax3v15tnkry'>
+            <_.fcp.ObjectModelTableType.true...column caption='Extract' datatype='table' name='[__tableau_internal_object_id__].[Extract (Extract.Extract)_72128C61518C44039040AAFE5C0BB384]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Extract (Extract.Extract)_72128C61518C44039040AAFE5C0BB384]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Extract (Extract.Extract)_72128C61518C44039040AAFE5C0BB384:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[what did you most of spend time at SNS or Any comunitysite?]' derivation='None' name='[none:what did you most of spend time at SNS or Any comunitysite?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[what did you use of most?]' derivation='None' name='[none:what did you use of most?:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[what did you most of spend time at SNS or Any comunitysite?]' role='dimension' type='nominal' />
+            <column caption='What Did You Use Of Most?' datatype='string' name='[what did you use of most?]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='Extract' datatype='integer' name='[__tableau_internal_object_id__].[Extract (Extract.Extract)_72128C61518C44039040AAFE5C0BB384]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1insprn1j1afw814nax3v15tnkry].[none:what did you most of spend time at SNS or Any comunitysite?:nk]' />
+              <text column='[federated.1insprn1j1afw814nax3v15tnkry].[none:what did you use of most?:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1insprn1j1afw814nax3v15tnkry].[none:what did you most of spend time at SNS or Any comunitysite?:nk]</rows>
+        <cols>[federated.1insprn1j1afw814nax3v15tnkry].[__tableau_internal_object_id__].[cnt:Extract (Extract.Extract)_72128C61518C44039040AAFE5C0BB384:qk]</cols>
+      </table>
+      <simple-id uuid='{EF83C439-5AD4-4530-BAD0-BE7920B9F7D6}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='시트 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1insprn1j1afw814nax3v15tnkry].[none:what did you most of spend time at SNS or Any comunitysite?:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1insprn1j1afw814nax3v15tnkry].[none:Gender:nk]</field>
+            <field>[federated.1insprn1j1afw814nax3v15tnkry].[none:country:nk]</field>
+            <field>[federated.1insprn1j1afw814nax3v15tnkry].[none:what did you most of spend time at SNS or Any comunitysite?:nk]</field>
+            <field>[federated.1insprn1j1afw814nax3v15tnkry].[none:what did you use of most?:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{24820FCB-B549-48C5-9440-6CEA3F2758DA}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='159' name='시트 1' width='192'>
+      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
+      ADFNARDT/guHvYqx45SqwAAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
